@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ font-family: 'Roboto Serif', serif;;
+}
+
+#navbar {
+display: flex;
+background-color: black;
+justify-content: space-between;
+align-items: center;
+max-width: 100%;
+padding: 20px 20px;
+}
+
+.nav-items{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    align-items: center;
+ & a {
+    color:gray;
+    text-decoration: none;
+    padding: 50px;
+ }
+} 
+.navbar-2 {
+    justify-content: center;
+    display: flex;
+    background-color: rgb(85, 85, 85);
+    align-items: center;
+    color: #eeeeee;
+    font-size: 16px;
+    line-height: 50px;
+}
+.navbar-2 a {
+text-decoration: none;
+color: #eeeeee;
+}
+.hero-section {
+ background-image: url(./assets/images/razer-blade16-lamborghini_hero.webp);
+ background-repeat: no-repeat;
+ width: 100%;
+height: 600px;
+}
+.write-up a{
+    color: #eeeeee;
+    padding-left: 550px;
+    text-decoration: none;
+    padding-bottom: 30px;
+    font: weight 400px;
+}
+.words {
+  color: white;
+  padding-left: 80px
+  max-width: 50px;
+  padding  
+}
+.hero-2 {
+background-image: url(./assets/images/razer-fujin-homepage-desktop2x.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: auto;
+width: 100%;
+height: 1100px;
+}
+
+@media {min-width: 768px;}
